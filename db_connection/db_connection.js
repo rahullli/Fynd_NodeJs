@@ -8,5 +8,6 @@ const collection = client.db("EMPLOYEE").collection("managerCollection") ;
 collection.findOne({}, function (err, result) {
     
         console.log(result) ;
+        
 });
 
